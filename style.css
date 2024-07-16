@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#tarefa-form {
+    margin-bottom: 20px;
+}
+
+#tarefa-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #8c8c8c;
+}
+
+ul.completed {
+    text-decoration: line-through;
+    color: #6b1313;
+}
